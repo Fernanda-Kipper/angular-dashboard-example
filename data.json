@@ -1,0 +1,27 @@
+{
+    "cpuUsage": [
+      { "timestamp": "2023-05-01T10:00:00Z", "usage": 20 },
+      { "timestamp": "2023-05-01T10:01:00Z", "usage": 35 },
+      { "timestamp": "2023-05-01T10:02:00Z", "usage": 50 },
+      { "timestamp": "2023-05-01T10:03:00Z", "usage": 40 },
+      { "timestamp": "2023-05-01T10:04:00Z", "usage": 60 },
+      { "timestamp": "2023-05-01T10:05:00Z", "usage": 50 },
+      { "timestamp": "2023-05-01T10:06:00Z", "usage": 40 },
+      { "timestamp": "2023-05-01T10:07:00Z", "usage": 24 }
+    ],
+    "errorRate": [
+      { "timestamp": "2023-05-01T10:00:00Z", "errors": 1 },
+      { "timestamp": "2023-05-01T10:01:00Z", "errors": 3 },
+      { "timestamp": "2023-05-01T10:02:00Z", "errors": 0 },
+      { "timestamp": "2023-05-01T10:03:00Z", "errors": 2 },
+      { "timestamp": "2023-05-01T10:04:00Z", "errors": 4 }
+    ],
+    "responseTime": [
+      { "timestamp": "2023-05-01T10:00:00Z", "time": 120 },
+      { "timestamp": "2023-05-01T10:01:00Z", "time": 150 },
+      { "timestamp": "2023-05-01T10:02:00Z", "time": 110 },
+      { "timestamp": "2023-05-01T10:03:00Z", "time": 130 },
+      { "timestamp": "2023-05-01T10:04:00Z", "time": 140 }
+    ]
+  }
+  
