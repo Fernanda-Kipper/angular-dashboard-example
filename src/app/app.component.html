@@ -1,0 +1,35 @@
+<main class="page-wrapper">
+  <h1>Application Monitor</h1>
+
+  <div class="chart-wrapper">
+    <ngx-charts-line-chart
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="cpuUsageData"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabelCpu"
+    [yAxisLabel]="yAxisLabelCpu">
+    </ngx-charts-line-chart>
+  </div>
+
+  <div class="chart-wrapper">
+    <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="errorRateData"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="false"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabelError"
+    [yAxisLabel]="yAxisLabelError">
+    </ngx-charts-bar-vertical>
+  </div>
+</main>
